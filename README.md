@@ -3,10 +3,11 @@
 An AI agent for cleaning, enhancing, and replacing voices in videos with AI-generated speech, which can also be your own cloned voice.
 
 1. Extracting audio from the video.
-2. Transcribing speech using AI-powered transcription.
-3. Cleaning the transcript to remove filler words and improve clarity.
-4. (ElevenLabs) Generating a new AI voice from the refined text. You can use your own cloned voice!
+2. Transcribing speech using OpenAI Whisper API.
+3. Cleaning the transcript to remove filler words and improve clarity (GPT-4o).
+4. (ElevenLabs) Generating a new AI voice from the refined text. You can use your own cloned voice, works great!
 5. Merging the AI-generated voice back into the video while removing the original voice.
+6. **TODO:** The AI-genrated voice and the original voice must be aligned, which is not done yet. I am looking into the different strategies how to do it.
 
 ❗ **PAY ATTENTION:** you must change this line in the code:<br>
 ```voice_id = "!!!REMOVED SINCE IT WAS MY VOICE, USE THE ONE ABOVE OR CLONE YOURS!!!" # JENYS```
