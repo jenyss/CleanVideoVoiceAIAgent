@@ -5,5 +5,5 @@ An AI agent for cleaning, enhancing, and replacing voices in videos with AI-gene
 1. Extracting audio from the video.
 2. Transcribing speech using AI-powered transcription.
 3. Cleaning the transcript to remove filler words and improve clarity.
-4. Generating a new AI voice from the refined text.
+4. (ElevenLabs) Generating a new AI voice from the refined text. You can use your own cloned voice!
 5. Merging the AI-generated voice back into the video while removing the original voice.
