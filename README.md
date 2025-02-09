@@ -12,6 +12,8 @@ An AI agent for cleaning, enhancing, and replacing voices in videos with AI-gene
 ❗ **PAY ATTENTION:** you must change this line in the code:<br>
 ```voice_id = "!!!REMOVED SINCE IT WAS MY VOICE, USE THE ONE ABOVE OR CLONE YOURS!!!" # JENYS```
 
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
+
 ## Tools
 
 TODO
