@@ -4,7 +4,7 @@ An AI agent for cleaning, enhancing, and replacing voices in videos with AI-gene
 
 1. Extracting audio from the video.
 2. Transcribing speech using OpenAI Whisper API.
-3. Cleaning the transcript to remove filler words and improve clarity (GPT-4o).
+3. Cleaning the transcript to remove filler words and improve clarity and flow (GPT-4o).
 4. (ElevenLabs) Generating a new AI voice from the refined text. You can use your own cloned voice, works great!
 5. Merging the AI-generated voice back into the video while removing the original voice.
 6. **TODO:** The AI-genrated voice and the original voice must be aligned, which is not done yet. I am looking into different strategies for how to do it.
