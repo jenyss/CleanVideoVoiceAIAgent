@@ -11,14 +11,15 @@ This ReAct LangGraph Agent 𝗽𝗿𝗼𝗱𝘂𝗰𝗲𝘀 𝗮 𝘃𝗶𝗱�
 5. Merging the AI-generated voice back into the video while removing the original voice.
 6. **TODO:** The AI-genrated voice and the original voice must be aligned, which is not done yet. I am looking into different strategies for how to do it.
 
-❗ **PAY ATTENTION:** you must add ```voice_id``` of your choice. You can either select one of the ElevenLabs ones or clone your own voice.<br>
-```voice_id = "!!!REMOVED SINCE IT WAS MY VOICE, USE THE ONE ABOVE OR CLONE YOURS!!!" # JENYS```
-
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-## Tools
-
-TODO
+## Agent Tools
+* ExtractAudio - FFmpeg
+* TranscribeAudio - OpenAI Whisper API
+* CleanTranscript - OpenAI GPT-4o
+* GenerateAIVoice - ElevenLabs ❗You must specify ```voice_id``` in the tool. You can either select one of the ElevenLabs ones or clone your own voice.
+* RemoveOldVoice - FFmpeg
+* MergeAudio - FFmpeg
 
 ## Intallation
 
